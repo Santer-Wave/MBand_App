@@ -12,7 +12,7 @@ class Profile(models.Model):
     first_name = models.CharField(max_length=64, blank=False)
     last_name = models.CharField(max_length=64, blank=False)
     birthday = models.DateField()
-    discrict = models.CharField(max_length=64, blank=True)
+    district = models.CharField(max_length=64, blank=True)
     city = models.CharField(max_length=64, blank=True)
     statusChoices = (
         ('Нет статуса', 'Нет статуса'),

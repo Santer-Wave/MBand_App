@@ -69,7 +69,7 @@ class ProfileList(generics.ListAPIView):
     permission_classes = [permissions.AllowAny]
 
     def get_queryset(self):
-        queryset = User.objects.all()
+        queryset = User.objects.exclude(profiles__isnull=True)
         params = self.request.query_params
         genre = params.get('genre', None)
         skill = params.get('skill', None)
