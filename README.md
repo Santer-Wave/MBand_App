@@ -1,6 +1,6 @@
 # MBand
 
-Educational project. Python Django backend for an mobile app that allows search and follow people with purpose to form a musicial group
+Educational project. Python Django backend for an mobile app that allows search and follow people with purpose to form a musical group
 
 ### Functionality
 
